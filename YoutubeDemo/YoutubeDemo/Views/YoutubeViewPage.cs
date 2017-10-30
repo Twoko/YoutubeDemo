@@ -1,4 +1,5 @@
-﻿using Xamarin.Forms;
+﻿using Plugin.Share;
+using Xamarin.Forms;
 using XamarinForms.Models;
 using XamarinForms.ViewModels;
 
@@ -146,7 +147,7 @@ namespace XamarinForms.Views
             var youtubeItem = itemTappedEventArgs.Item as YoutubeItem;
 
             // You can use Plugin.Share nuget package to open video in browser
-            //CrossShare.Current.OpenBrowser("https://www.youtube.com/watch?v=" + youtubeItem?.VideoId);
+            CrossShare.Current.OpenBrowser("https://www.youtube.com/watch?v=" + youtubeItem?.VideoId);
         }
     }
 }
