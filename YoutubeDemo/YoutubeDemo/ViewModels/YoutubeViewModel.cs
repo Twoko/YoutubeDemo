@@ -26,7 +26,7 @@ namespace XamarinForms.ViewModels
 
         // doc : https://developers.google.com/apis-explorer/#p/youtube/v3/youtube.playlistItems.list
         private string apiUrlForPlaylist = "https://www.googleapis.com/youtube/v3/playlistItems?part=contentDetails&maxResults=20&playlistId="
-            + "PLpbcUe4chE7-uGCH1S0-qeuCWOMa2Tmam"
+            + "PLivjPDlt6ApRIbmwWJDxj6W6zMvSkBYeY"
             //+ "Your_PlaylistId"
             + "&key="
             + ApiKey;
