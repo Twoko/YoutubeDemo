@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 
 using Xamarin.Forms;
+using XamarinForms.Views;
 
 namespace YoutubeDemo
 {
@@ -11,9 +12,9 @@ namespace YoutubeDemo
     {
         public App()
         {
-            InitializeComponent();
+            
 
-            MainPage = new YoutubeDemo.MainPage();
+            MainPage = new YoutubeViewPage();
         }
 
         protected override void OnStart()
