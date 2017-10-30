@@ -19,7 +19,7 @@ namespace XamarinForms.ViewModels
 
         // doc : https://developers.google.com/apis-explorer/#p/youtube/v3/youtube.videos.list 
         private string apiUrlForChannel = "https://www.googleapis.com/youtube/v3/search?part=id&maxResults=20&channelId="
-            + "UC1RdMKaPQ4ey91ZiHmSa9"
+            + "UCpVm7bg6pXKo1Pr6k5kxG9A"
             //+ "Your_ChannelId"
             + "&key="
             + ApiKey;
